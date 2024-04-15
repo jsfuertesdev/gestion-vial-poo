@@ -1,0 +1,146 @@
+[
+   {
+      "nombre": "Juan Pérez",
+      "cedula": "12345678",
+      "categoriaLicencia": "A2",
+      "estadoLicencia": "Vigente",
+      "estadoRunt": "Activo",
+      "fechaVencimientoLicencia": "2025-06-30",
+      "linkSoporteConsulta": "https://ejemplo.com/documento-juan-perez.pdf"
+   },
+   {
+      "nombre": "María Rodríguez",
+      "cedula": "87654321",
+      "categoriaLicencia": "B1",
+      "estadoLicencia": "Vencida",
+      "estadoRunt": "No registra",
+      "fechaVencimientoLicencia": "2023-12-31",
+      "linkSoporteConsulta": "https://ejemplo.com/documento-maria-rodriguez.pdf"
+   },
+   {
+      "nombre": "Carlos García",
+      "cedula": "23456789",
+      "categoriaLicencia": "C1",
+      "estadoLicencia": "Vigente",
+      "estadoRunt": "Activo",
+      "fechaVencimientoLicencia": "2026-07-15",
+      "linkSoporteConsulta": "https://ejemplo.com/documento-carlos-garcia.pdf"
+   },
+   {
+      "nombre": "Ana Sánchez",
+      "cedula": "34567890",
+      "categoriaLicencia": "A1",
+      "estadoLicencia": "Vigente",
+      "estadoRunt": "Activo",
+      "fechaVencimientoLicencia": "2024-08-20",
+      "linkSoporteConsulta": "https://ejemplo.com/documento-ana-sanchez.pdf"
+   },
+   {
+      "nombre": "Luis Torres",
+      "cedula": "45678901",
+      "categoriaLicencia": "B2",
+      "estadoLicencia": "Vencida",
+      "estadoRunt": "No registra",
+      "fechaVencimientoLicencia": "2022-11-10",
+      "linkSoporteConsulta": "https://ejemplo.com/documento-luis-torres.pdf"
+   },
+   {
+      "nombre": "Sofía López",
+      "cedula": "56789012",
+      "categoriaLicencia": "C2",
+      "estadoLicencia": "Vigente",
+      "estadoRunt": "Activo",
+      "fechaVencimientoLicencia": "2025-09-25",
+      "linkSoporteConsulta": "https://ejemplo.com/documento-sofia-lopez.pdf"
+   },
+   {
+      "nombre": "Pedro Martínez",
+      "cedula": "67890123",
+      "categoriaLicencia": "A2",
+      "estadoLicencia": "Vigente",
+      "estadoRunt": "Activo",
+      "fechaVencimientoLicencia": "2026-04-10",
+      "linkSoporteConsulta": "https://ejemplo.com/documento-pedro-martinez.pdf"
+   },
+   {
+      "nombre": "Laura Gómez",
+      "cedula": "78901234",
+      "categoriaLicencia": "B1",
+      "estadoLicencia": "Vencida",
+      "estadoRunt": "No registra",
+      "fechaVencimientoLicencia": "2023-07-05",
+      "linkSoporteConsulta": "https://ejemplo.com/documento-laura-gomez.pdf"
+   },
+   {
+      "nombre": "Roberto Ramírez",
+      "cedula": "89012345",
+      "categoriaLicencia": "C3",
+      "estadoLicencia": "Vigente",
+      "estadoRunt": "Activo",
+      "fechaVencimientoLicencia": "2025-12-31",
+      "linkSoporteConsulta": "https://ejemplo.com/documento-roberto-ramirez.pdf"
+   },
+   {
+      "nombre": "Carmen Morales",
+      "cedula": "90123456",
+      "categoriaLicencia": "A1",
+      "estadoLicencia": "Vigente",
+      "estadoRunt": "Activo",
+      "fechaVencimientoLicencia": "2024-05-20",
+      "linkSoporteConsulta": "https://ejemplo.com/documento-carmen-morales.pdf"
+   },
+   {
+      "nombre": "Javier González",
+      "cedula": "01234567",
+      "categoriaLicencia": "B2",
+      "estadoLicencia": "Vencida",
+      "estadoRunt": "No registra",
+      "fechaVencimientoLicencia": "2022-10-15",
+      "linkSoporteConsulta": "https://ejemplo.com/documento-javier-gonzalez.pdf"
+   },
+   {
+      "nombre": "María Fernández",
+      "cedula": "123456789",
+      "categoriaLicencia": "C1",
+      "estadoLicencia": "Vigente",
+      "estadoRunt": "Activo",
+      "fechaVencimientoLicencia": "2025-09-20",
+      "linkSoporteConsulta": "https://ejemplo.com/documento-maria-fernandez.pdf"
+   },
+   {
+      "nombre": "Luis Pérez",
+      "cedula": "234567890",
+      "categoriaLicencia": "A2",
+      "estadoLicencia": "Vigente",
+      "estadoRunt": "Activo",
+      "fechaVencimientoLicencia": "2026-06-30",
+      "linkSoporteConsulta": "https://ejemplo.com/documento-luis-perez.pdf"
+   },
+   {
+      "nombre": "Sofía Rodríguez",
+      "cedula": "345678901",
+      "categoriaLicencia": "B1",
+      "estadoLicencia": "Vencida",
+      "estadoRunt": "No registra",
+      "fechaVencimientoLicencia": "2023-12-31",
+      "linkSoporteConsulta": "https://ejemplo.com/documento-sofia-rodriguez.pdf"
+   },
+   {
+      "nombre": "Pedro Morales",
+      "cedula": "456789012",
+      "categoriaLicencia": "C2",
+      "estadoLicencia": "Vigente",
+      "estadoRunt": "Activo",
+      "fechaVencimientoLicencia": "2025-11-25",
+      "linkSoporteConsulta": "https://ejemplo.com/documento-pedro-morales.pdf"
+   },
+   {
+      "nombre": "Laura Gómez",
+      "cedula": "567890123",
+      "categoriaLicencia": "A1",
+      "estadoLicencia": "Vigente",
+      "estadoRunt": "Activo",
+      "fechaVencimientoLicencia": "2024-06-20",
+      "linkSoporteConsulta": "https://ejemplo.com/documento-laura-gomez.pdf"
+   }
+]

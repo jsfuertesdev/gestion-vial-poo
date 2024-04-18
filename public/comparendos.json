@@ -1,0 +1,112 @@
+[
+    {
+       "numero": 3,
+       "fecha": "2024-04-20",
+       "valor": 1500,
+       "cedula": "23456789",
+       "nombre": "Carlos García",
+       "licencia": "B1",
+       "estadoLicencia": "Activo",
+       "fechaVencimiento": "2025-04-20",
+       "estadoRUNT": "Activo"
+    },
+    {
+       "numero": 4,
+       "fecha": "2024-04-21",
+       "valor": 2500,
+       "cedula": "34567890",
+       "nombre": "Ana Sánchez",
+       "licencia": "B2",
+       "estadoLicencia": "Inactivo",
+       "fechaVencimiento": "2023-04-21",
+       "estadoRUNT": "Inactivo"
+    },
+    {
+       "numero": 5,
+       "fecha": "2024-04-22",
+       "valor": 3000,
+       "cedula": "45678901",
+       "nombre": "Luis Torres",
+       "licencia": "C1",
+       "estadoLicencia": "Activo",
+       "fechaVencimiento": "2025-04-22",
+       "estadoRUNT": "Activo"
+    },
+    {
+       "numero": 6,
+       "fecha": "2024-04-23",
+       "valor": 3500,
+       "cedula": "56789012",
+       "nombre": "María López",
+       "licencia": "C2",
+       "estadoLicencia": "Inactivo",
+       "fechaVencimiento": "2023-04-23",
+       "estadoRUNT": "Inactivo"
+    },
+    {
+       "numero": 7,
+       "fecha": "2024-04-24",
+       "valor": 4000,
+       "cedula": "67890123",
+       "nombre": "Juan Gómez",
+       "licencia": "C3",
+       "estadoLicencia": "Activo",
+       "fechaVencimiento": "2025-04-24",
+       "estadoRUNT": "Activo"
+    },
+    {
+       "numero": 8,
+       "fecha": "2024-04-25",
+       "valor": 4500,
+       "cedula": "78901234",
+       "nombre": "Carmen Martínez",
+       "licencia": "A1",
+       "estadoLicencia": "Inactivo",
+       "fechaVencimiento": "2023-04-25",
+       "estadoRUNT": "Inactivo"
+    },
+    {
+       "numero": 9,
+       "fecha": "2024-04-26",
+       "valor": 5000,
+       "cedula": "89012345",
+       "nombre": "Pedro Rodríguez",
+       "licencia": "A2",
+       "estadoLicencia": "Activo",
+       "fechaVencimiento": "2025-04-26",
+       "estadoRUNT": "Activo"
+    },
+    {
+       "numero": 10,
+       "fecha": "2024-04-27",
+       "valor": 5500,
+       "cedula": "90123456",
+       "nombre": "Laura Pérez",
+       "licencia": "B1",
+       "estadoLicencia": "Inactivo",
+       "fechaVencimiento": "2023-04-27",
+       "estadoRUNT": "Inactivo"
+    },
+    {
+       "numero": 11,
+       "fecha": "2024-04-28",
+       "valor": 6000,
+       "cedula": "01234567",
+       "nombre": "Miguel González",
+       "licencia": "B2",
+       "estadoLicencia": "Activo",
+       "fechaVencimiento": "2025-04-28",
+       "estadoRUNT": "Activo"
+    },
+    {
+       "numero": 12,
+       "fecha": "2024-04-29",
+       "valor": 6500,
+       "cedula": "12345678",
+       "nombre": "Sofía Morales",
+       "licencia": "C1",
+       "estadoLicencia": "Inactivo",
+       "fechaVencimiento": "2023-04-29",
+       "estadoRUNT": "Inactivo"
+    }
+]

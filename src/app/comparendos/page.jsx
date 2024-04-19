@@ -12,10 +12,16 @@ const Formulario = () => {
  const [estadoLicencia, setEstadoLicencia] = useState('');
  const [fechaVencimiento, setFechaVencimiento] = useState('');
  const [estadoRUNT, setEstadoRUNT] = useState('');
+ const [updateData, setUpdateData] = useState(false)
 
  const handleSubmit = (e) => {
     e.preventDefault();
+    setUpdateData(true);
     console.log({ cedula, nombre, licencia, estadoLicencia, fechaVencimiento, estadoRUNT });
+ };
+
+ const resetUpdateData = () => {
+  setUpdateData(false);
  };
 
  return (
@@ -30,7 +36,6 @@ const Formulario = () => {
             value={cedula}
             onChange={(e) => setCedula(e.target.value)}
             className="p-2 border border-gray-300 rounded-md"
-            required
           />
         </div>
         <div className="flex flex-col space-y-2 w-full sm:w-auto">
@@ -41,7 +46,6 @@ const Formulario = () => {
             value={nombre}
             onChange={(e) => setNombre(e.target.value)}
             className="p-2 border border-gray-300 rounded-md"
-            required
             />
         </div>
         <div className="flex flex-col space-y-2 w-full sm:w-auto">
@@ -51,7 +55,6 @@ const Formulario = () => {
             value={licencia}
             onChange={(e) => setLicencia(e.target.value)}
             className="p-2 border border-gray-300 rounded-md"
-            required
           >
             <option value="">Seleccione una licencia</option>
             <option value="A2">A2</option>
@@ -70,11 +73,10 @@ const Formulario = () => {
             value={estadoLicencia}
             onChange={(e) => setEstadoLicencia(e.target.value)}
             className="p-2 border border-gray-300 rounded-md"
-            required
           >
             <option value="">Seleccione un estado</option>
-            <option value="activo">Activo</option>
-            <option value="inactivo">Inactivo</option>
+            <option value="Activo">Activo</option>
+            <option value="Inactivo">Inactivo</option>
           </select>
         </div>
         <div className="flex flex-col space-y-2 w-full sm:w-auto">
@@ -85,7 +87,6 @@ const Formulario = () => {
             value={fechaVencimiento}
             onChange={(e) => setFechaVencimiento(e.target.value)}
             className="p-2 border border-gray-300 rounded-md"
-            required
             />
         </div>
         <div className="flex flex-col space-y-2 w-full sm:w-auto">
@@ -95,11 +96,10 @@ const Formulario = () => {
             value={estadoRUNT}
             onChange={(e) => setEstadoRUNT(e.target.value)}
             className="p-2 border border-gray-300 rounded-md"
-            required
           >
             <option value="">Seleccione un estado</option>
-            <option value="activo">Activo</option>
-            <option value="inactivo">Inactivo</option>
+            <option value="Activo">Activo</option>
+            <option value="Inactivo">Inactivo</option>
           </select>
         </div>
       </div>

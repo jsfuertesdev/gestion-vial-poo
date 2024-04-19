@@ -1,16 +1,5 @@
 [
     {
-       "numero": 3,
-       "fecha": "2024-04-20",
-       "valor": 1500,
-       "cedula": "23456789",
-       "nombre": "Carlos García",
-       "licencia": "B1",
-       "estadoLicencia": "Activo",
-       "fechaVencimiento": "2025-04-20",
-       "estadoRUNT": "Activo"
-    },
-    {
        "numero": 4,
        "fecha": "2024-04-21",
        "valor": 2500,

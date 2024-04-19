@@ -11,7 +11,7 @@ export default function Home() {
   const labels = ['Vigente', 'Vencido', 'Proximo a vencer'];
   const sizes = [50, 10, 10];
   return (
-    <div className="flex items-center gap-3">
+    <div className="flex flex-col md:flex-row items-center gap-3">
         <ButtonLinks/>
         {/* <PieChart/> */}
         <PieChartNext labels={labels} sizes={sizes} />

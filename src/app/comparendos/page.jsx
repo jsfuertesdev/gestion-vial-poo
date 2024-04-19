@@ -25,8 +25,8 @@ const Formulario = () => {
  };
 
  return (
-  <div>
-    <form onSubmit={handleSubmit} className="flex flex-wrap justify-center items-center space-x-4">
+  <div className='flex flex-col gap-7'>
+    <form onSubmit={handleSubmit} className="flex flex-wrap justify-center items-center space-x-4 gap-3">
       <div className="flex flex-wrap justify-center items-center space-x-4">
         <div className="flex flex-col space-y-2 w-full sm:w-auto">
           <label htmlFor="cedula" className="text-sm font-medium text-gray-700">Cédula</label>

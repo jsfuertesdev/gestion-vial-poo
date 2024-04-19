@@ -46,10 +46,10 @@ function ComponenteTabla({ cedula, nombre, licencia, estadoLicencia, fechaVencim
 
     
     return (
-        <div className="flex flex-col">
+        <div className="flex flex-col gap-3">
             <div className="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
                 <div className="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
-                    <div className="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg w-1/2 mx-auto">
+                    <div className="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg w-full mx-auto"> {/* Cambiado a w-full */}
                         <table className="min-w-full divide-y divide-gray-200">
                             <thead className="bg-gray-50">
                                 <tr>
@@ -93,7 +93,8 @@ function ComponenteTabla({ cedula, nombre, licencia, estadoLicencia, fechaVencim
                                                     value={item[columnName]}
                                                     onChange={(event) => handleChange(event, rowIndex, columnName)}
                                                     onBlur={handleBlur}
-                                                />) : (item[columnName])}
+                                                    className="w-full" // Asegúrate de que el input ocupe todo el espacio disponible
+                                                 />) : (item[columnName])}
                                             </td>
                                         ))}
                                     </tr>

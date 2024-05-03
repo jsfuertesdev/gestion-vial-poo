@@ -7,6 +7,7 @@ function Navbar() {
       <div className="flex space-x-4">
         <Link href="/" className="text-white hover:text-blue-300">Dashboard</Link>
         <Link href="/comparendos" className="text-white hover:text-blue-300">Comparendos</Link>
+        <Link href="/encuestaderiesgos" className="text-white hover:text-blue-300">Encuesta de riesgos</Link>
       </div>
     </nav>
  );
